@@ -1,13 +1,13 @@
 import numpy as np
 import time, logging, random
-from cyber_matrix_protocol import CyberTeologyProtocol
+from cyber_matrix_protocol import CyberTevhidProtocol
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - [%(levelname)s] - %(message)s")
 
 class PredictiveMaintenanceEngine:
     """SGY CURE-EARTH Yapay Zeka Tabanlı Kestirimci Bakım Motoru"""
     def __init__(self):
-        self.cyber = CyberTeologyProtocol()
+        self.cyber = CyberTevhidProtocol()
         # İdeal saha parametre eşik değerleri
         self.IDEAL_PRESS_BAR = 200.0
         self.IDEAL_TEMP_C = 45.0

@@ -1,10 +1,10 @@
 import time, json, random
 from flask import Flask, render_template_string, jsonify
-from cyber_matrix_protocol import CyberTeologyProtocol
+from cyber_matrix_protocol import CyberTevhidProtocol
 from predictive_maintenance import PredictiveMaintenanceEngine
 
 app = Flask(__name__)
-cyber = CyberTeologyProtocol()
+cyber = CyberTevhidProtocol()
 pdm = PredictiveMaintenanceEngine()
 
 HTML_TEMPLATE = """

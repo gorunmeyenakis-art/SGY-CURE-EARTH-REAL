@@ -1,5 +1,5 @@
 import time, logging, json
-from cyber_matrix_protocol import CyberTeologyProtocol
+from cyber_matrix_protocol import CyberTevhidProtocol
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - [%(levelname)s] - %(message)s")
 
@@ -8,7 +8,7 @@ class TelegramAlarmDispatcher:
     def __init__(self, bot_token="MOCK_TELEGRAM_TOKEN", chat_id="SGY_COMMAND_CENTER"):
         self.bot_token = bot_token
         self.chat_id = chat_id
-        self.cyber = CyberTeologyProtocol()
+        self.cyber = CyberTevhidProtocol()
 
     def send_emergency_alert(self, level, title, details):
         """Otonom Acil Durum / Bakım İhbarı Gönderimi"""

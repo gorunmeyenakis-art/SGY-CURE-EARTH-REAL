@@ -1,5 +1,5 @@
 import time, logging, random
-from cyber_matrix_protocol import CyberTeologyProtocol
+from cyber_matrix_protocol import CyberTevhidProtocol
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - [%(levelname)s] - %(message)s")
 
@@ -8,7 +8,7 @@ class AeronWarpSimulationEngine:
     def __init__(self, channel="aeron:ipc", stream_id=1001):
         self.channel = channel
         self.stream_id = stream_id
-        self.cyber = CyberTeologyProtocol()
+        self.cyber = CyberTevhidProtocol()
 
     def run_warp_mesh_simulation(self, pres_bar, sicaklik_c):
         """NVIDIA Warp Tarzı Hidrolik Pres & Metal Şekillendirme Matris Simülasyonu"""

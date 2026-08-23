@@ -2,7 +2,7 @@ import time, hashlib, logging, random
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - [%(levelname)s] - %(message)s")
 
-class CyberTeologyProtocol:
+class CyberTevhidProtocol:
     def __init__(self, terminal_id="SGY-LOCAL-TERMINAL-01"):
         self.terminal_id = terminal_id
         self.open_ports = ["EGO", "KORKU", "SEHVET"] # Rogue Hacker (Şeytan) Saldırı Yüzeyleri
@@ -39,7 +39,7 @@ class CyberTeologyProtocol:
 
 if __name__ == "__main__":
     print("\n🌌 SGY CURE-EARTH SİBER-TEOLOJİK PROTOKOL MOTORU BAŞLATILDI 🌌\n")
-    cyber = CyberTeologyProtocol()
+    cyber = CyberTevhidProtocol()
     
     # 1. Şifreli Veri İletim Testi
     encrypted_packet = cyber.cebrail_protocol_encrypt("Saha Pres Kuvveti: 1890 kN -> Basınç Onayı")

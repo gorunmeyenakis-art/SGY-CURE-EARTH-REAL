@@ -1,5 +1,5 @@
 import time, logging
-from cyber_matrix_protocol import CyberTeologyProtocol
+from cyber_matrix_protocol import CyberTevhidProtocol
 from saha_optimizasyonu import SahaOptimizer
 from sekillendirme_kuvvet import ForceRealizer
 from predictive_maintenance import PredictiveMaintenanceEngine
@@ -13,7 +13,7 @@ def otonom_saha_dongusu():
     print("\n🌌 SGY CURE-EARTH (KIZILELMA) FULL OTONOM ORKESTRATÖR BAŞLATILDI 🌌\n")
     
     # 1. Siber Güvenlik Duvarı
-    cyber = CyberTeologyProtocol()
+    cyber = CyberTevhidProtocol()
     cyber.rogue_hacker_scan()
     
     # 2. Donanım & NPU

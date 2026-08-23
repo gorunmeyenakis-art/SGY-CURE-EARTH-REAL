@@ -1,12 +1,12 @@
 import time, json, os, logging
-from cyber_matrix_protocol import CyberTeologyProtocol
+from cyber_matrix_protocol import CyberTevhidProtocol
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - [%(levelname)s] - %(message)s")
 
 class T3GemstoneHardwareAccelerator:
     """T3 Gemstone O1 Yerli Mini Bilgisayar & PCIe 5.0 NVMe Entegrasyon Modülü"""
     def __init__(self, nvme_mount_path="./nvme_telemetry_cache"):
-        self.cyber = CyberTeologyProtocol()
+        self.cyber = CyberTevhidProtocol()
         self.nvme_path = nvme_mount_path
         os.makedirs(self.nvme_path, exist_ok=True)
         
